@@ -2,6 +2,8 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="br.senac.pi.demoviews" >
 
+    <uses-permission android:name="android.permission.INTERNET" />
+
     <application
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
@@ -21,6 +23,41 @@
         <activity
             android:name=".TextViewDemo"
             android:label="@string/title_activity_text_view_demo"
+            android:theme="@style/AppTheme.NoActionBar" >
+        </activity>
+        <activity
+            android:name=".EditeTextDemo"
+            android:label="@string/title_activity_edite_text_demo"
+            android:theme="@style/AppTheme.NoActionBar" >
+        </activity>
+        <activity
+            android:name=".ImageViewDemo"
+            android:label="@string/title_activity_image_view_demo"
+            android:theme="@style/AppTheme.NoActionBar" >
+        </activity>
+        <activity
+            android:name=".AutoComplete"
+            android:label="@string/title_activity_auto_complete"
+            android:theme="@style/AppTheme.NoActionBar" >
+        </activity>
+        <activity
+            android:name=".ImageButton"
+            android:label="@string/title_activity_image_button"
+            android:theme="@style/AppTheme.NoActionBar" >
+        </activity>
+        <activity
+            android:name=".CheckBoxTogleButton"
+            android:label="@string/title_activity_check_box_togle_button"
+            android:theme="@style/AppTheme.NoActionBar" >
+        </activity>
+        <activity
+            android:name=".ProgressDialogDemoActivity"
+            android:label="@string/title_activity_progress_dialog_demo"
+            android:theme="@style/AppTheme.NoActionBar" >
+        </activity>
+        <activity
+            android:name=".AlertDialogDemoActivity"
+            android:label="@string/title_activity_alert_dialog_demo"
             android:theme="@style/AppTheme.NoActionBar" >
         </activity>
     </application>

@@ -22,5 +22,46 @@
         android:text="TextView Demo"
         android:id="@+id/btnTextViewDemo"
         />
-
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="EditTextDemo"
+        android:id="@+id/btnEditText"
+        />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="ImageViewDemo"
+        android:id="@+id/btnImageView"
+        />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="AutoComplete"
+        android:id="@+id/btnAutoComplete"
+        />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="ImageButton"
+        android:id="@+id/btnImageButton"
+        />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="ButtonsViews"
+        android:id="@+id/btnButtonsViews"
+        />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="ProgressDialog"
+        android:id="@+id/btnProgressDialog"
+        />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="AlertDialog"
+        android:id="@+id/btnAlertDialog"
+        />
 </LinearLayout>
